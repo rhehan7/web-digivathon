@@ -106,7 +106,7 @@ http://www.templatemo.com/tm-521-get-ready
   }
 
   .grid-line {
-    height: 300vh;
+  /* height: 100vh; */
     border-right: 1px solid rgba(255,255,255,0.02);
   }
 
