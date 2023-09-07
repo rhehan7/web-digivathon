@@ -1,0 +1,133 @@
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-bottom: none;
+}
+
+.table td {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border: none;
+}
+
+.table td:first-child {
+  white-space: normal;
+  font-weight: 640; /* Biarkan teks melintasi beberapa baris */
+}
+
+.table td:not(:first-child) {
+  padding-left: 30px; /* Atur jarak kiri untuk kolom selain kolom pertama */
+  padding-right: 30px; /* Atur jarak kanan untuk kolom selain kolom pertama */
+}
+
+/* Gaya khusus untuk seluruh elemen <td> kecuali pada kolom "Fasilitas Sponsorship" */
+.table td:not(:first-child) {
+  text-align: center; /* Pusatkan teks di dalam seluruh elemen <td> kecuali kolom pertama */
+}
+
+.table-header {
+  border: none;
+  vertical-align: middle;
+  font-size: 1.5rem; /* Atur ukuran teks sesuai kebutuhan */
+  color: #616368; /* Ganti warna sesuai keinginan */
+  font-weight: bold; /* Tambahkan tebal pada teks */
+}
+
+.table-header-button-t {
+  background-color: transparent;
+  color: #747c83;
+  border: none;
+  padding: 3px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid #747c83;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.table-header-button-g {
+  background-color: transparent;
+  color: #ffbd1b;
+  border: none;
+  padding: 3px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid #ffbd1b;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.table-header-button-s {
+  background-color: transparent;
+  color: #c0c0c0;
+  border: none;
+  padding: 3px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid #c0c0c0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.table-header-button-b {
+  background-color: transparent;
+  color: #945d41;
+  border: none;
+  padding: 3px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid #945d41;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/*button whatsapp cta*/
+.wa-button {
+  background-color: #3c5e6f;
+  color: white;
+  padding: 3px 40px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid #3c5e6f;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.wa-button:hover {
+  background-color: #607985;
+}
+
+.table thead th:not(:first-child) {
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: none;
+  border-top: none;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid transparent;
+}
+
+/* Gaya tambahan sesuai preferensi Anda */
+body {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji";
+  background-color: #f8f9fa;
+}
+
+/* Gaya khusus untuk elemen-elemen lain di halaman */
+.sponsorship-heading {
+  margin-top: 70px; /* Atur margin atas sesuai kebutuhan */
+}
+
+/*bagian end*/
+.end {
+  margin-top: 35px;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
