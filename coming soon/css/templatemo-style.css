@@ -110,10 +110,10 @@ a:focus {
   z-index: 1;
 }
 
-.grid-line {
+  .grid-line {
   /* height: 100vh; */
-  border-right: 1px solid rgba(255, 255, 255, 0.02);
-}
+    border-right: 1px solid rgba(255,255,255,0.02);
+  }
 
 .google-map iframe {
   border: 0;
